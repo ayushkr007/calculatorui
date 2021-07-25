@@ -1,0 +1,80 @@
+body {
+    background :linear-gradient(to right,#acb6e5,#86fde8)
+    }
+.container {
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    width: 250px;
+    padding: 8px 8px 20px 8px;
+    margin: 20px auto;
+    border-radius: 4px;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6);
+}
+#display {
+    display: block;
+    margin: 15px auto;
+    height: 50px;
+    width: 250px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    background-color: #FFF;
+    box-shadow: inset 0px 0px 10px #030303;
+    
+}
+.button {
+    display: inline-block;
+    margin: 3px;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-sizing:border-box;
+
+}
+.mathButtons {
+    margin: 2px 2px 6px 2px;
+    color: #FFF;
+    font-size: 27px;
+    text-shadow: -1px -1px 0px #44006F;
+    background-color: #434343;
+    border-top: 2px solid;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid ;
+    border-left: 2px solid;
+    box-shadow: 0px 0px 2px;
+    border-radius: 50%;
+}
+.mathButtons:hover{
+    cursor: pointer;
+}
+.digits {
+    color: #181818;
+    text-shadow: 1px 1px 0px #FFF;
+    background-color: #EBEBEB;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px #030303;
+}
+.digits:hover{
+    cursor: pointer;
+}
+.mathButtons:hover,
+#clearButton:hover {
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
